@@ -106,12 +106,12 @@ A timeline of key hackathon placements, competitions, and participant milestones
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ananyaayk288-lang&amp;show_icons=true&amp;theme=dark&amp;hide_border=true&amp;title_color=BB86FC&amp;text_color=E0E1DD&amp;icon_color=BB86FC&amp;bg_color=0d0e15" alt="Ananya's GitHub Stats" height="190" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ananyaayk288-lang&amp;theme=dark&amp;hide_border=true&amp;background=0d0e15&amp;ring=BB86FC&amp;fire=9D4EDD&amp;currStreakNum=E0E1DD&amp;sideNums=E0E1DD&amp;sideLabels=E0E1DD&amp;currStreakLabel=9D4EDD&amp;stroke=BB86FC" alt="Ananya's Streak Stats" height="190" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ananyaayk288-lang&show_icons=true&theme=dark&hide_border=true&title_color=BB86FC&text_color=E0E1DD&icon_color=BB86FC&bg_color=0d0e15" alt="Ananya's GitHub Stats" height="190" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ananyaayk288-lang&theme=dark&hide_border=true&background=0d0e15&ring=BB86FC&fire=9D4EDD&currStreakNum=E0E1DD&sideNums=E0E1DD&sideLabels=E0E1DD&currStreakLabel=9D4EDD&stroke=BB86FC" alt="Ananya's Streak Stats" height="190" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ananyaayk288-lang&amp;layout=compact&amp;theme=dark&amp;hide_border=true&amp;title_color=BB86FC&amp;text_color=E0E1DD&amp;bg_color=0d0e15" alt="Ananya's Top Languages" height="190" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ananyaayk288-lang&layout=compact&theme=dark&hide_border=true&title_color=BB86FC&text_color=E0E1DD&bg_color=0d0e15" alt="Ananya's Top Languages" height="190" />
 </p>
 
 ---
