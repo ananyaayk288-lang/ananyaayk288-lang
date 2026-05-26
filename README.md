@@ -1,9 +1,19 @@
 # Hi there, I'm Ananya Y K 👋
 
 <p align="center">
-  <a href="https://github.com/ananyaayk288-lang"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://linkedin.com/in/YOUR-LINKEDIN-USERNAME"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a> <!-- 💡 REPLACE 'YOUR-LINKEDIN-USERNAME' WITH YOUR ACTUAL LINKEDIN USERNAME -->
-  <a href="mailto:ananyaayk288@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
+  <img src="assets/banner.svg" alt="Ananya Y K Banner" width="100%" />
+</p>
+
+```shell
+> System.active
+⚡ Full-Stack | Cybersecurity | Web-Design
+```
+
+<p align="center">
+  <a href="http://www.linkedin.com/in/ananya-y-k"><img src="https://img.shields.io/badge/LINKEDIN-7B2CBF?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:ananyaayk288@gmail.com"><img src="https://img.shields.io/badge/GMAIL-9D4EDD?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
+  <a href="https://github.com/ananyaayk288-lang"><img src="https://img.shields.io/badge/GITHUB-5A189A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://www.hackerrank.com/profile/ananyaayk288"><img src="https://img.shields.io/badge/HACKERRANK-3C096C?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank" /></a>
 </p>
 
 ---
@@ -97,12 +107,12 @@ A timeline of key hackathon placements, competitions, and participant milestones
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ananyaayk288-lang&amp;show_icons=true&amp;theme=dark&amp;hide_border=true&amp;title_color=BB86FC&amp;text_color=E0E1DD&amp;icon_color=03DAC6&amp;bg_color=0E131F" alt="Ananya's GitHub Stats" height="190" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ananyaayk288-lang&amp;theme=dark&amp;hide_border=true&amp;background=0E131F&amp;ring=BB86FC&amp;fire=03DAC6&amp;currStreakNum=E0E1DD&amp;sideNums=E0E1DD&amp;sideLabels=E0E1DD&amp;currStreakLabel=03DAC6&amp;stroke=BB86FC" alt="Ananya's Streak Stats" height="190" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ananyaayk288-lang&amp;show_icons=true&amp;theme=dark&amp;hide_border=true&amp;title_color=BB86FC&amp;text_color=E0E1DD&amp;icon_color=BB86FC&amp;bg_color=0d0e15" alt="Ananya's GitHub Stats" height="190" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ananyaayk288-lang&amp;theme=dark&amp;hide_border=true&amp;background=0d0e15&amp;ring=BB86FC&amp;fire=9D4EDD&amp;currStreakNum=E0E1DD&amp;sideNums=E0E1DD&amp;sideLabels=E0E1DD&amp;currStreakLabel=9D4EDD&amp;stroke=BB86FC" alt="Ananya's Streak Stats" height="190" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ananyaayk288-lang&amp;layout=compact&amp;theme=dark&amp;hide_border=true&amp;title_color=BB86FC&amp;text_color=E0E1DD&amp;bg_color=0E131F" alt="Ananya's Top Languages" height="190" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ananyaayk288-lang&amp;layout=compact&amp;theme=dark&amp;hide_border=true&amp;title_color=BB86FC&amp;text_color=E0E1DD&amp;bg_color=0d0e15" alt="Ananya's Top Languages" height="190" />
 </p>
 
 ---

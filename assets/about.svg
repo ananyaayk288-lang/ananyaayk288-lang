@@ -1,60 +1,83 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="350" viewBox="0 0 800 350" fill="none">
   <style>
-    .title { font-family: 'Segoe UI', Ubuntu, Sans-Serif; font-weight: 700; font-size: 32px; fill: #ffffff; }
-    .tagline-container { fill: #151726; rx: 15px; }
-    .tagline-text { font-family: 'Segoe UI', Ubuntu, Sans-Serif; font-weight: 600; font-size: 13px; fill: #bb86fc; }
-    .label { font-family: 'Segoe UI', Ubuntu, Sans-Serif; font-weight: 700; font-size: 11px; fill: #7275f0; letter-spacing: 1.5px; text-transform: uppercase; }
-    .value { font-family: 'Segoe UI', Ubuntu, Sans-Serif; font-weight: 500; font-size: 14px; fill: #e1e1e8; }
-    .footer { font-family: 'Segoe UI', Ubuntu, Sans-Serif; font-style: italic; font-weight: 400; font-size: 13px; fill: #7275f0; text-anchor: middle; }
-    .dot { fill: #484b83; }
+    .header-text { font-family: 'Courier New', Courier, monospace; font-weight: 700; font-size: 14px; fill: #bb86fc; letter-spacing: 2px; }
+    .label { font-family: 'Courier New', Courier, monospace; font-weight: 700; font-size: 13px; fill: #bb86fc; }
+    .value { font-family: 'Segoe UI', Ubuntu, Sans-Serif; font-weight: 600; font-size: 14px; fill: #ffffff; }
+    .status-text { font-family: 'Segoe UI', Ubuntu, Sans-Serif; font-weight: 700; font-size: 13px; fill: #38ef7d; }
+    .pill-text { font-family: 'Courier New', Courier, monospace; font-weight: 700; font-size: 11px; fill: #ffffff; text-anchor: middle; }
+    .glow-border { stroke: #9d4edd; stroke-width: 2; filter: blur(1px); }
+    .border { stroke: #bb86fc; stroke-width: 1; }
+    .sys-text { font-family: 'Courier New', Courier, monospace; font-size: 9px; fill: #7275f0; text-anchor: middle; letter-spacing: 1px; }
   </style>
-  
-  <!-- Background Card -->
-  <rect width="800" height="350" rx="12" fill="#0d0e15" stroke="#1d2036" stroke-width="2" />
-  
-  <!-- Header Window Dots -->
-  <circle cx="750" cy="30" r="4" class="dot" />
-  <circle cx="765" cy="30" r="4" class="dot" />
-  <circle cx="780" cy="30" r="4" class="dot" />
-  
-  <!-- Profile Info -->
-  <text x="40" y="65" class="title">Ananya Y K</text>
-  
-  <!-- Tagline Capsule -->
-  <rect x="40" y="85" width="510" height="30" rx="15" fill="#151726" stroke="#7275f0" stroke-width="1" />
-  <text x="55" y="104" class="tagline-text">⚡ Full Stack Developer • Cybersecurity Enthusiast • CSE Undergraduate</text>
-  
-  <!-- Two Column Layout -->
-  <!-- Left Column -->
-  <g transform="translate(40, 145)">
-    <!-- Location -->
-    <text x="0" y="0" class="label">Location</text>
-    <text x="0" y="20" class="value">📍 India</text>
-    
-    <!-- Education -->
-    <text x="0" y="60" class="label">Education</text>
-    <text x="0" y="80" class="value">🎓 Vidya Vardhaka College of Engineering</text>
-    
-    <!-- Currently Building -->
-    <text x="0" y="120" class="label">Currently Building</text>
-    <text x="0" y="140" class="value">🚀 ResqLink (Full Stack Emergency Response)</text>
+
+  <!-- Background -->
+  <rect width="800" height="350" rx="8" fill="#0d0e15" stroke="#1d2036" stroke-width="1.5" />
+
+  <!-- Cyber Style Outer Border -->
+  <rect x="25" y="25" width="750" height="300" rx="6" fill="none" class="glow-border" />
+  <rect x="25" y="25" width="750" height="300" rx="6" fill="none" class="border" />
+
+  <!-- Header Title -->
+  <text x="240" y="55" class="header-text">SYSTEM IDENTITY CARD // v4.0</text>
+  <line x1="35" y1="65" x2="765" y2="65" stroke="#bb86fc" stroke-width="0.5" />
+  <circle cx="755" cy="48" r="2" fill="#ff5555" />
+
+  <!-- Info Grid -->
+  <g transform="translate(60, 95)">
+    <!-- Name -->
+    <text x="0" y="20" class="label">NAME</text>
+    <text x="140" y="20" class="value">Ananya Y K</text>
+
+    <!-- Role -->
+    <text x="0" y="60" class="label">ROLE</text>
+    <text x="140" y="60" class="value">Full Stack Developer • Cybersecurity Enthusiast • CSE Undergrad</text>
+
+    <!-- Status -->
+    <text x="0" y="100" class="label">STATUS</text>
+    <!-- Glowing Status bar -->
+    <rect x="140" y="90" width="160" height="12" rx="6" fill="#1b1c2e" />
+    <rect x="140" y="90" width="130" height="12" rx="6" fill="url(#purple-gradient)" />
+    <text x="315" y="101" class="status-text">● ONLINE</text>
+
+    <!-- Stack -->
+    <text x="0" y="140" class="label">STACK</text>
+    <text x="140" y="140" class="value">React • Node.js • Python • MongoDB • Cybersecurity</text>
   </g>
-  
-  <!-- Right Column -->
-  <g transform="translate(435, 145)">
-    <!-- Interests -->
-    <text x="0" y="0" class="label">Interests</text>
-    <text x="0" y="20" class="value">💡 Web Dev • Cybersecurity • Hackathons</text>
-    
-    <!-- Learning -->
-    <text x="0" y="60" class="label">Learning</text>
-    <text x="0" y="80" class="value">🌱 React • Node.js • Security Auditing</text>
-    
-    <!-- Open To -->
-    <text x="0" y="120" class="label">Open To</text>
-    <text x="0" y="140" class="value">🤝 Collaborations &amp; Hackathons</text>
+
+  <!-- Divider -->
+  <line x1="35" y1="260" x2="765" y2="260" stroke="#bb86fc" stroke-width="0.5" />
+
+  <!-- Tag Pills at Bottom -->
+  <g transform="translate(60, 275)">
+    <!-- Pill 1: Full-Stack -->
+    <g transform="translate(0, 0)">
+      <rect width="110" height="24" rx="4" fill="#7b2cbf" fill-opacity="0.2" stroke="#7b2cbf" stroke-width="1" />
+      <text x="55" y="16" class="pill-text">Full-Stack</text>
+    </g>
+    <!-- Pill 2: Cybersecurity -->
+    <g transform="translate(125, 0)">
+      <rect width="140" height="24" rx="4" fill="#ff007f" fill-opacity="0.15" stroke="#ff007f" stroke-width="1" />
+      <text x="70" y="16" class="pill-text">Cybersecurity</text>
+    </g>
+    <!-- Pill 3: VVCE -->
+    <g transform="translate(280, 0)">
+      <rect width="60" height="24" rx="4" fill="#00b4d8" fill-opacity="0.15" stroke="#00b4d8" stroke-width="1" />
+      <text x="30" y="16" class="pill-text">VVCE</text>
+    </g>
+    <!-- Pill 4: SecOps -->
+    <g transform="translate(355, 0)">
+      <rect width="80" height="24" rx="4" fill="#ffb703" fill-opacity="0.15" stroke="#ffb703" stroke-width="1" />
+      <text x="40" y="16" class="pill-text">SecOps</text>
+    </g>
   </g>
-  
-  <!-- Footer Quote -->
-  <text x="400" y="320" class="footer">"Continuous learning and solving real-world problems — one secure line of code at a time."</text>
+
+  <text x="400" y="315" class="sys-text">SYSTEM STATUS: OPTIMIZED</text>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="purple-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7b2cbf" />
+      <stop offset="100%" stop-color="#bb86fc" />
+    </linearGradient>
+  </defs>
 </svg>

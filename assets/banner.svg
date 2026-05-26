@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="150" viewBox="0 0 800 150" fill="none">
+  <style>
+    .banner-title { font-family: 'Courier New', Courier, monospace; font-weight: 700; font-size: 38px; fill: #bb86fc; text-anchor: middle; letter-spacing: 6px; }
+    .banner-sub { font-family: 'Courier New', Courier, monospace; font-weight: 600; font-size: 11px; fill: #e1e1e8; text-anchor: middle; letter-spacing: 4px; }
+    .line { stroke: #bb86fc; stroke-width: 2; }
+    .glow-line { stroke: #9d4edd; stroke-width: 4; filter: blur(2px); }
+  </style>
+
+  <!-- Background -->
+  <rect width="800" height="150" rx="8" fill="#0d0e15" stroke="#1d2036" stroke-width="1.5" />
+
+  <!-- Top and Bottom Neon Border Lines -->
+  <line x1="40" y1="25" x2="760" y2="25" class="glow-line" />
+  <line x1="40" y1="25" x2="760" y2="25" class="line" />
+  
+  <line x1="40" y1="125" x2="760" y2="125" class="glow-line" />
+  <line x1="40" y1="125" x2="760" y2="125" class="line" />
+
+  <!-- Dots at Corners -->
+  <circle cx="40" cy="25" r="2.5" fill="#ffffff" />
+  <circle cx="760" cy="25" r="2.5" fill="#ffffff" />
+  <circle cx="40" cy="125" r="2.5" fill="#ffffff" />
+  <circle cx="760" cy="125" r="2.5" fill="#ffffff" />
+
+  <!-- Title & Subtitle -->
+  <text x="400" y="75" class="banner-title">ANANYA Y K</text>
+  <text x="400" y="105" class="banner-sub">DEVELOPER • CODER • CYBERSECURITY ENTHUSIAST</text>
+</svg>
