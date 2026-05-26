@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="350" viewBox="0 0 800 350" fill="none">
+  <style>
+    .title { font-family: 'Segoe UI', Ubuntu, Sans-Serif; font-weight: 700; font-size: 32px; fill: #ffffff; }
+    .tagline-container { fill: #151726; rx: 15px; }
+    .tagline-text { font-family: 'Segoe UI', Ubuntu, Sans-Serif; font-weight: 600; font-size: 13px; fill: #bb86fc; }
+    .label { font-family: 'Segoe UI', Ubuntu, Sans-Serif; font-weight: 700; font-size: 11px; fill: #7275f0; letter-spacing: 1.5px; text-transform: uppercase; }
+    .value { font-family: 'Segoe UI', Ubuntu, Sans-Serif; font-weight: 500; font-size: 14px; fill: #e1e1e8; }
+    .footer { font-family: 'Segoe UI', Ubuntu, Sans-Serif; font-style: italic; font-weight: 400; font-size: 13px; fill: #7275f0; text-anchor: middle; }
+    .dot { fill: #484b83; }
+  </style>
+  
+  <!-- Background Card -->
+  <rect width="800" height="350" rx="12" fill="#0d0e15" stroke="#1d2036" stroke-width="2" />
+  
+  <!-- Header Window Dots -->
+  <circle cx="750" cy="30" r="4" class="dot" />
+  <circle cx="765" cy="30" r="4" class="dot" />
+  <circle cx="780" cy="30" r="4" class="dot" />
+  
+  <!-- Profile Info -->
+  <text x="40" y="65" class="title">Ananya Y K</text>
+  
+  <!-- Tagline Capsule -->
+  <rect x="40" y="85" width="510" height="30" rx="15" fill="#151726" stroke="#7275f0" stroke-width="1" />
+  <text x="55" y="104" class="tagline-text">⚡ Full Stack Developer • Cybersecurity Enthusiast • CSE Undergraduate</text>
+  
+  <!-- Two Column Layout -->
+  <!-- Left Column -->
+  <g transform="translate(40, 145)">
+    <!-- Location -->
+    <text x="0" y="0" class="label">Location</text>
+    <text x="0" y="20" class="value">📍 India</text>
+    
+    <!-- Education -->
+    <text x="0" y="60" class="label">Education</text>
+    <text x="0" y="80" class="value">🎓 Vidya Vardhaka College of Engineering</text>
+    
+    <!-- Currently Building -->
+    <text x="0" y="120" class="label">Currently Building</text>
+    <text x="0" y="140" class="value">🚀 ResqLink (Full Stack Emergency Response)</text>
+  </g>
+  
+  <!-- Right Column -->
+  <g transform="translate(435, 145)">
+    <!-- Interests -->
+    <text x="0" y="0" class="label">Interests</text>
+    <text x="0" y="20" class="value">💡 Web Dev • Cybersecurity • Hackathons</text>
+    
+    <!-- Learning -->
+    <text x="0" y="60" class="label">Learning</text>
+    <text x="0" y="80" class="value">🌱 React • Node.js • Security Auditing</text>
+    
+    <!-- Open To -->
+    <text x="0" y="120" class="label">Open To</text>
+    <text x="0" y="140" class="value">🤝 Collaborations &amp; Hackathons</text>
+  </g>
+  
+  <!-- Footer Quote -->
+  <text x="400" y="320" class="footer">"Continuous learning and solving real-world problems — one secure line of code at a time."</text>
+</svg>
