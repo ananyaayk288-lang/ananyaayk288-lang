@@ -1,4 +1,3 @@
-# Hi there, I'm Ananya Y K 👋
 
 <p align="center">
   <img src="assets/banner.svg" alt="Ananya Y K Banner" width="100%" />
